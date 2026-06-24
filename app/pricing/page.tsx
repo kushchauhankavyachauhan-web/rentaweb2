@@ -1,6 +1,6 @@
 import { CheckIcon } from "@/components/Icons";
 
-const WA_NUMBER = "9311321008";
+const WA_NUMBER = "919311321008";
 
 const plans = [
   {
