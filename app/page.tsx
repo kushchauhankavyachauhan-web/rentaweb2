@@ -90,30 +90,6 @@ const listings = [
     ],
   },
   {
-    category: "Clinic",
-    emoji: "🏥",
-    accent: "bg-green-500/20",
-    description: "Professional clinic website with doctor profiles, services, appointment booking and timings.",
-    features: [
-      "Doctor Profiles",
-      "Services List",
-      "Appointment Booking",
-      "OPD Timings",
-    ],
-  },
-  {
-    category: "Restaurant",
-    emoji: "🍛",
-    accent: "bg-orange-500/20",
-    description: "Rich restaurant website with full menu, prices, timings, table booking and Zomato/Swiggy links.",
-    features: [
-      "Full Menu",
-      "Item Prices",
-      "Table Booking",
-      "Delivery Links",
-    ],
-  },
-  {
     category: "Cafe",
     emoji: "☕",
     accent: "bg-yellow-700/20",
@@ -123,11 +99,44 @@ const listings = [
       "Food Items",
       "WiFi Info",
       "Instagram Link",
+  {
+    category: "Bakery",
+    emoji: "🎂",
+    accent: "bg-pink-500/20",
+    description: "Beautiful bakery website with full menu, custom cake orders, specials section, timings and WhatsApp ordering.",
+    features: [
+      "Full Menu",
+      "Custom Cakes",
+      "Weekly Specials",
+      "WhatsApp Orders",
+    ],
+  },
+  {
+    category: "Company",
+    emoji: "🏢",
+    accent: "bg-blue-500/20",
+    description: "Professional corporate website with services, team, testimonials, how we work section and contact form.",
+    features: [
+      "Services Grid",
+      "Team Section",
+      "Testimonials",
+      "Contact Form",
+    ],
+  },
+  {
+    category: "Cafe",
+    emoji: "☕",
+    accent: "bg-yellow-700/20",
+    description: "Cosy cafe website with coffee menu, food items, cafe vibe section, timings and Instagram link.",
+    features: [
+      "Coffee Menu",
+      "Food Items",
+      "WiFi Info",
+      "Instagram Link",
     ],
   },
 ];
-
-const categories = ["All", "Gym", "Salon", "Tuition", "Store", "Clinic", "Restaurant", "Cafe"];
+const categories = ["All", "Gym", "Salon", "Tuition", "Store", "Clinic", "Restaurant", "Cafe","Bakery", "Company"];
 
 const steps = [
   { num: "01", title: "Pick Your Category", desc: "Choose from Gym, Salon, Clinic, Store, Tuition, or Restaurant." },
