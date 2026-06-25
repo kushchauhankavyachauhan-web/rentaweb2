@@ -90,16 +90,6 @@ const listings = [
     ],
   },
   {
-    category: "Cafe",
-    emoji: "☕",
-    accent: "bg-yellow-700/20",
-    description: "Cosy cafe website with drinks menu, food items, café vibe section and Instagram link.",
-    features: [
-      "Coffee Menu",
-      "Food Items",
-      "WiFi Info",
-      "Instagram Link",
-  {
     category: "Bakery",
     emoji: "🎂",
     accent: "bg-pink-500/20",
@@ -136,7 +126,8 @@ const listings = [
     ],
   },
 ];
-const categories = ["All", "Gym", "Salon", "Tuition", "Store", "Clinic", "Restaurant", "Cafe","Bakery", "Company"];
+
+const categories = ["All", "Gym", "Salon", "Tuition", "Store", "Clinic", "Restaurant", "Bakery", "Company", "Cafe"];
 
 const steps = [
   { num: "01", title: "Pick Your Category", desc: "Choose from Gym, Salon, Clinic, Store, Tuition, or Restaurant." },
